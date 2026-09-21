@@ -1,0 +1,705 @@
+content:
+- name: portfolio
+  label: Portfolio EL / EN
+  type: file
+  path: content.json
+  format: json
+  fields:
+  - name: profile
+    label: Προφίλ
+    type: object
+    fields:
+    - name: name
+      label: name
+      type: string
+    - name: email
+      label: email
+      type: string
+    - name: linkedin
+      label: linkedin
+      type: string
+    - name: location
+      label: location
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: role
+      label: role
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: availability
+      label: availability
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: about
+      label: Σχετικά με εμένα
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: text
+      - name: en
+        label: Αγγλικά
+        type: text
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+  - name: stats
+    label: stats
+    type: object
+    fields:
+    - name: value
+      label: Περιεχόμενο
+      type: string
+    - name: label
+      label: Ονομασία πεδίου
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    list:
+      collapsible: true
+  - name: experience
+    label: Εμπειρία
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: org
+      label: Οργανισμός
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: period
+      label: Περίοδος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: place
+      label: place
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: bullets
+      label: bullets
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: text
+        list: true
+      - name: en
+        label: Αγγλικά
+        type: string
+        list: true
+    - name: tags
+      label: tags
+      type: string
+      list: true
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: community
+    label: Δράσεις
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: org
+      label: Οργανισμός
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: period
+      label: Περίοδος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: bullets
+      label: bullets
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: text
+        list: true
+      - name: en
+        label: Αγγλικά
+        type: string
+        list: true
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: education
+    label: Εκπαίδευση
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: org
+      label: Οργανισμός
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: period
+      label: Περίοδος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: place
+      label: place
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: description
+      label: Περιγραφή
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: text
+      - name: en
+        label: Αγγλικά
+        type: text
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: publications
+    label: Δημοσιεύσεις
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: text
+    - name: venue
+      label: venue
+      type: string
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: projects
+    label: Έργα
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: subtitle
+      label: subtitle
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: description
+      label: Περιγραφή
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: text
+      - name: en
+        label: Αγγλικά
+        type: text
+    - name: tags
+      label: tags
+      type: string
+      list: true
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: teaching
+    label: Διδασκαλία
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: org
+      label: Οργανισμός
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: period
+      label: Περίοδος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: description
+      label: Περιγραφή
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: text
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: certifications
+    label: Πιστοποιήσεις
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: issuer
+      label: issuer
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: date
+      label: date
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: fields
+      label: Πρόσθετα πεδία
+      type: object
+      fields:
+      - name: label
+        label: Ονομασία πεδίου
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: value
+        label: Περιεχόμενο
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      list:
+        collapsible: true
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: skills
+    label: Δεξιότητες
+    type: string
+    list: true
+  - name: websites
+    label: Ιστοσελίδες
+    type: object
+    fields:
+    - name: name
+      label: name
+      type: string
+    - name: url
+      label: url
+      type: string
+    list:
+      collapsible: true
+  - name: customSections
+    label: Πρόσθετες ενότητες
+    type: object
+    fields:
+    - name: title
+      label: Τίτλος
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: intro
+      label: intro
+      type: object
+      fields:
+      - name: el
+        label: Ελληνικά
+        type: string
+      - name: en
+        label: Αγγλικά
+        type: string
+    - name: items
+      label: items
+      type: object
+      fields:
+      - name: title
+        label: Τίτλος
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: description
+        label: Περιγραφή
+        type: object
+        fields:
+        - name: el
+          label: Ελληνικά
+          type: string
+        - name: en
+          label: Αγγλικά
+          type: string
+      - name: url
+        label: url
+        type: string
+      - name: fields
+        label: Πρόσθετα πεδία
+        type: object
+        fields:
+        - name: label
+          label: Ονομασία πεδίου
+          type: object
+          fields:
+          - name: el
+            label: Ελληνικά
+            type: string
+          - name: en
+            label: Αγγλικά
+            type: string
+        - name: value
+          label: Περιεχόμενο
+          type: object
+          fields:
+          - name: el
+            label: Ελληνικά
+            type: string
+          - name: en
+            label: Αγγλικά
+            type: string
+        list:
+          collapsible: true
+      list:
+        collapsible: true
+    list:
+      collapsible: true
