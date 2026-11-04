@@ -18,8 +18,7 @@
     "about": {
       "el": "Προπτυχιακός φοιτητής του Τμήματος Πληροφορικής και Τηλεπικοινωνιών του Πανεπιστημίου Ιωαννίνων, μέλος του Human-Computer Interaction Lab (HCI Lab) και της ομάδας του Epirus XR Center. Ασχολούμαι με web υποδομές, HCI, XR, Digital Twins και τεχνολογίες εκπαίδευσης, ενώ από το 2024 είμαι πιστοποιημένος εκπαιδευτής Πρώτων Βοηθειών του European Resuscitation Council μέσω του KIDS SAVE LIVES.",
       "en": "Undergraduate student at the Department of Informatics & Telecommunications, University of Ioannina, member of the Human-Computer Interaction Lab (HCI Lab) and the Epirus XR Center team. My work spans web infrastructure, HCI, XR, Digital Twins and educational technologies. Since 2024, I have also been a certified First Aid Instructor through the European Resuscitation Council and KIDS SAVE LIVES."
-    },
-    "fields": []
+    }
   },
   "stats": [
     {
@@ -78,16 +77,15 @@
         "en": [
           "Management, maintenance and technical support of the lab's official website.",
           "Support for publishing research projects, activities and collaborations.",
-          "Collaboration in Human-Computer Interaction and interactive technology activities."
+          "Collaboration in Human-Computer Interaction and interactive technology activities.",
+          "rhrhrh"
         ]
       },
       "tags": [
         "WordPress",
         "HTML",
         "CSS"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     },
     {
       "title": {
@@ -123,9 +121,7 @@
         "HTML",
         "CSS",
         "Web Management"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     }
   ],
   "community": [
@@ -153,9 +149,7 @@
           "Participation in research activities and the National AED Mapping initiative.",
           "Contribution to the Website Development Team."
         ]
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -177,9 +171,7 @@
         "en": [
           "Participation in technology, engineering, research and educational activities."
         ]
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -203,9 +195,7 @@
           "Website management and maintenance for the Student Branch.",
           "Support for scientific, educational and technology activities."
         ]
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -227,9 +217,7 @@
         "en": [
           "Support for financial and organizational operations, alongside website management and development."
         ]
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -251,9 +239,7 @@
         "en": [
           "Participation in an educational initiative focused on engineering, digital skills and STEM."
         ]
-      },
-      "fields": [],
-      "url": ""
+      }
     }
   ],
   "education": [
@@ -277,9 +263,7 @@
       "description": {
         "el": "Ακαδημαϊκή και ερευνητική ενασχόληση με HCI, XR, web technologies, Digital Twins και τεχνολογίες εκπαίδευσης. Πτυχιακή: Έξυπνος Εικονικός Εκπαιδευτής Καρδιοπνευμονικής Αναζωογόνησης με Προσαρμοστική Καθοδήγηση σε Περιβάλλον Μικτής Πραγματικότητας.",
         "en": "Academic and research focus on HCI, XR, web technologies, Digital Twins and educational technology. Thesis: Intelligent Virtual CPR Trainer with Adaptive Guidance in a Mixed Reality Environment."
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -301,35 +285,25 @@
       "description": {
         "el": "Έτος αποφοίτησης: 2022.",
         "en": "Graduation year: 2022."
-      },
-      "fields": [],
-      "url": ""
+      }
     }
   ],
   "publications": [
     {
       "title": "Multiplayer Virtual Labs for Electronic Circuit Design: A Digital Twin-Based Learning Approach",
-      "venue": "Electronics 14(16), 3163 — 2025",
-      "fields": [],
-      "url": ""
+      "venue": "Electronics 14(16), 3163 — 2025"
     },
     {
       "title": "KIDS SAVE LIVES CHAMPIONSHIP in Greece: Pioneering the World’s First National Student Competition in CPR Skills",
-      "venue": "Resuscitation 215, S157–S158 — 2025",
-      "fields": [],
-      "url": ""
+      "venue": "Resuscitation 215, S157–S158 — 2025"
     },
     {
       "title": "KIDS SAVE LIVES CHAMPIONSHIP in Greece: A Groundbreaking Evaluation of the World’s First National Student CPR Competition",
-      "venue": "Resuscitation 215, S161–S162 — 2025",
-      "fields": [],
-      "url": ""
+      "venue": "Resuscitation 215, S161–S162 — 2025"
     },
     {
       "title": "KIDS SAVE LIVES – How the Use of Mobile Applications is Helping to Expand the First Responder Community in Greece & Cyprus",
-      "venue": "Resuscitation 215, S159–S160 — 2025",
-      "fields": [],
-      "url": ""
+      "venue": "Resuscitation 215, S159–S160 — 2025"
     }
   ],
   "projects": [
@@ -350,9 +324,7 @@
         "Digital Twins",
         "XR",
         "Education"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     },
     {
       "title": {
@@ -366,9 +338,7 @@
       "tags": [
         "Web App",
         "Management"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     },
     {
       "title": {
@@ -382,9 +352,7 @@
       "tags": [
         "Decision Support",
         "Data"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     },
     {
       "title": {
@@ -399,9 +367,7 @@
         "AI",
         "Analytics",
         "Web App"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     },
     {
       "title": {
@@ -419,9 +385,7 @@
       "tags": [
         "Flutter",
         "Digital Publishing"
-      ],
-      "fields": [],
-      "url": ""
+      ]
     }
   ],
   "teaching": [
@@ -441,9 +405,7 @@
       "description": {
         "el": "Μαθήματα: Ψηφιακά Ηλεκτρονικά, Αρχιτεκτονική Υπολογιστών, Καινοτομία και Επιχειρηματικότητα, Ηλεκτρονική.",
         "en": "Courses: Digital Electronics, Computer Architecture, Innovation & Entrepreneurship, Electronics."
-      },
-      "fields": [],
-      "url": ""
+      }
     }
   ],
   "certifications": [
@@ -459,9 +421,7 @@
       "date": {
         "el": "Οκτ. 2024",
         "en": "Oct 2024"
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -475,9 +435,7 @@
       "date": {
         "el": "Ιούν. 2024",
         "en": "Jun 2024"
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -491,9 +449,7 @@
       "date": {
         "el": "Ιούν. 2024",
         "en": "Jun 2024"
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -507,9 +463,7 @@
       "date": {
         "el": "Ιούν. 2026",
         "en": "Jun 2026"
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -523,9 +477,7 @@
       "date": {
         "el": "2024",
         "en": "2024"
-      },
-      "fields": [],
-      "url": ""
+      }
     },
     {
       "title": {
@@ -539,9 +491,7 @@
       "date": {
         "el": "Φεβ. 2025",
         "en": "Feb 2025"
-      },
-      "fields": [],
-      "url": ""
+      }
     }
   ],
   "skills": [
@@ -591,6 +541,5 @@
       "name": "TEDxArta",
       "url": "https://www.tedxarta.com/"
     }
-  ],
-  "customSections": []
+  ]
 }
